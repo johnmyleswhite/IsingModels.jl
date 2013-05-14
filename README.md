@@ -22,4 +22,4 @@ Draw inexact samples from the Ising model using a Gibbs sampler.
 	writecsv("draw.csv",
 	         rand(Ising(200,
 	                    isferromagnetic = true,
-	                    temperature = 3.0)))
+	                    temperature = 1.0)))
